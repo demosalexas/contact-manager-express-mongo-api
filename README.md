@@ -1,1 +1,1 @@
-# contact-manager-express-mongo-api
+# Contact Manager (express-mongo-api)
