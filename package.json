@@ -1,6 +1,9 @@
 {
   "name": "contact-manager-express-mongo-api",
-  "version": "1.0.0",
+  "version": "0.0.2",
+  "engines": {
+    "node": "20.11.1"
+  },
   "description": "Express project",
   "main": "server.js",
   "scripts": {
@@ -8,7 +11,9 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "author": "",
+  "author": {
+    "name": "Demos Alexas"
+  },
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.1.0",

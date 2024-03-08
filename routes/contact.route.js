@@ -1,5 +1,5 @@
 const express = require("express");
-const { getContacts, getContact, updateContact, createContact, deleteContact } = require("../controllers/contactController");
+const { getContacts, getContact, updateContact, createContact, deleteContact } = require("../controllers/contact.controller");
 const validateToken = require("../middlewares/validateTokenHandler");
 
 const router = express.Router();
