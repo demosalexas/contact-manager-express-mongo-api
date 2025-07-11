@@ -5,11 +5,12 @@
     "node": "20.11.1"
   },
   "description": "Express project",
-  "main": "server.js",
+  "main": "dist/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev --respawn src/server.ts"
   },
   "author": {
     "name": "Demos Alexas"
@@ -24,6 +25,8 @@
     "mongoose": "^6.9.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
   }
 }
